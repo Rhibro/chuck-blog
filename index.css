@@ -225,18 +225,19 @@ p {
 } */
 
 .chuck-bio-btn {
+    padding: 20px;
     text-decoration: none;
-    background: rgb(143,13,13);
+    background: rgb(55,13,40);
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 35px;
     line-height: 20px;
     color: white;
     border-radius: 5px;
     border: none;
     transition: .3s ease;
-    min-height: 25px;
+    min-height: 35px;
     min-width: 200px;
     color: #f5f5f5;
     text-shadow:
@@ -366,14 +367,13 @@ footer {
     width: 100vw;
     min-height: 45px;
     cursor: pointer;
-    /* background-color: black; */
-    background: rgb(199,119,27,1);
-    background: linear-gradient(0deg, rgb(228, 61, 32) 0%, rgba(143,13,13,1) 20%, rgb(80, 4, 4) 100%);
+    background-color: black;
   }
   
   
-  h3 {
+.footer-text {
     font-family: 'Baloo 2';
+    text-align: start;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
